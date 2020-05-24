@@ -94,12 +94,12 @@ class Content extends Component {
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {/* <tr>
+                                <tr>
                                     <td>Amanda manopo</td>
                                     <td>amandamanda@gmail.com</td>
                                     <td>08572349423</td>
                                     <td>Role 3</td>
-                                </tr> */}
+                                </tr>
                                 {this.loadFillData()}
                                 </tbody>
                             </table>
