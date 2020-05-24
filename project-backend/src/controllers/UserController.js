@@ -41,11 +41,11 @@ sequelize.sync()
       return error;
     })
     // return res
-    // res.json({
-    //   success:true,
-    //   // message:"Data successfully created",
-    //   data:data
-    // })
+    res.status(200).json({
+       success:true,
+       message:"Data successfully created",
+       data:data
+     })
 
 
 
